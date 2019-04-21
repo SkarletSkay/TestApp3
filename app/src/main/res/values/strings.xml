@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ExampleApp</string>
+    <string name="add_to_cart">Добавить в мои списки покупок</string>
+    <string name="start_to_cook">• Приступаем к приготовлению •</string>
+    
+    <string name="recipe_name_1">• Фраппучино •</string>
+    <string name="ingredient_1">Молоко 1.5–2%</string>
+    <string name="ingredient_2">Взбитые сливки</string>
+    <string name="ingredient_3">Карамельный сироп</string>
+    <string name="ingredient_4">Кофе Jacobs Monarch</string>
+    <string name="ingredient_5">Лёд</string>
+    <string name="ingredient_6">Шоколадный сироп</string>
+    <string name="ingredient_7">Сахар</string>
+    <string name="ingredient_8">Шоколадная стружка</string>
+
+    <string name="ingredient_quantity_1">200 мл</string>
+    <string name="ingredient_quantity_2">1 ст.л.</string>
+    <string name="ingredient_quantity_3">3 ч.л.</string>
+    <string name="ingredient_quantity_4">1 чашечка</string>
+    <string name="ingredient_quantity_5">2–3 кубика</string>
+    <string name="ingredient_quantity_6">1 ст.л.</string>
+    <string name="ingredient_quantity_7">2–3 ч.л.</string>
+    <string name="ingredient_quantity_8">по вкусу</string>
+
+    <string name="added_to_cart">Добавлено</string>
+
+</resources>
