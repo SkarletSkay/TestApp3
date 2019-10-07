@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="false"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:src="@drawable/frappuccino"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_name_1"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textColor="@color/header_font_color"
+            android:textSize="20sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:id="@+id/recycle_view_ingredients"
+            android:layout_height="200dp" />
+
+        <Button
+            android:onClick="addToCartList"
+            android:includeFontPadding="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/add_to_cart_font_color"
+            android:drawableTint="@color/add_to_cart_font_color"
+            android:text="@string/add_to_cart"
+            android:drawableStart="@android:drawable/ic_menu_add"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/start_to_cook"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/divider_font_color"
+            android:background="@color/divider_color"/>
+
+        <view class="android.support.v7.widget.RecyclerView"
+            android:id="@+id/recycle_view"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
+        </view>
+    </LinearLayout>
+</ScrollView>
